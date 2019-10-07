@@ -1,0 +1,132 @@
+ /*{
+    font-family: 'verdana';
+    padding: 0;
+    margin: 0;
+}*/
+
+body{
+  text-align: center;
+  width:1900px;
+  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #F7FCC9;
+}
+
+header{
+    display: flex;
+    height: 300px;
+    margin: auto;
+    background-image: url("../images/ice_hotel3.jpg");
+}
+
+h1{
+  font-family: 'verdana';
+  font-size: 34px;
+  color: grey;
+}
+
+p {
+  width:1024px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+ p#heading{
+    text-align:left;
+    /*padding-left: 0px;*/
+    font-family: 'verdana';
+    font-size: 34px;
+	  border-radius: 0px;
+    text-decoration: none;
+    color: grey;
+    margin-top: auto;
+}
+
+a#link{
+  text-align: right;
+  font-family: 'verdana';
+  font-size: 34px;
+  border-radius: 0px;
+  text-decoration: none;
+  color: grey;
+
+}
+
+a {
+  text-align: right;
+  font-family: 'verdana';
+  font-size: 34px;
+  border-radius: 0px;
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover{
+  transition:all 1.5s ease-in-out;
+  color: #19A0FF;
+}
+
+
+/*nav a {
+  padding-right: 50px;
+  font-family: verdana;
+  font-size: 34px;
+  color: grey;
+  text-decoration: none;
+  position: relative;
+
+}*/
+
+
+.right {
+  width: 100%;
+	text-align: right;
+  font-family: 'verdana';
+	position: relative;
+  margin-top: auto;
+}
+
+nav a#link:hover {
+  transition:all 1.5s ease-in-out;
+  color: #19A0FF;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#menuGrid{
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr
+}
+
+table {
+  table-layout: fixed;
+  width: 50%;
+  width:1024px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 15px;
+  border-spacing: 10px;
+  border-collapse: collapse;
+  border: 3px solid grey;
+}
+
+td{
+    border-left: 3px solid grey;
+}
+
+input, label {
+    margin-top: 20px
+}

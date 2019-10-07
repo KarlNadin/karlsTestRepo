@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Design Your Own Page Form</title>
+</head>
+
+
+
+<body>
+<form action="display_page.php" method="POST">
+<h1>Design Your Own Webpage</h1>
+
+<div>
+<label for="heading_txt">Please enter a page Heading</label>
+<input type="text" id="heading_txt" name="heading_txt">
+</div>
+<br>
+<div>
+<label for="main_txt">Please enter the main text</label>
+<textarea name="main_txt" id="main_txt" rows="5" cols="20"></textarea>
+</div>
+<br>
+<fieldset>
+<legend>What colour background would you like?</legend>
+<label for="bg_red">Red</label><input id="bg_red" type="radio" name="bg_colour" value="red">
+<label for="bg_blue">Blue</label><input id="bg_blue" type="radio" name="bg_colour" value="blue">
+<label for="bg_green">Green</label><input id="bg_green" type="radio" name="bg_colour" value="green">
+<label for="bg_yellow">Yellow</label><input id="bg_yellow" type="radio" name="bg_colour" value="yellow">
+</fieldset>
+<br>
+<fieldset>
+<legend>What colour text would you like?</legend>
+<label for="txt_red">Red</label><input id="txt_red" type="radio" name="txt_colour" value="red">
+<label for="txt_blue">Blue</label><input id="txt_blue" type="radio" name="txt_colour" value="blue">
+<label for="txt_green">Green</label><input id="txt_green" type="radio" name="txt_colour" value="green">
+<label for="txt_yellow">Yellow</label><input id="txt_yellow" type="radio" name="txt_colour" value="yellow">
+</fieldset>
+<br>
+
+<fieldset>
+<label for="font">Choose a font</label>
+<select id="font" name="font">
+<option value="Arial">Arial</option>
+<option value="Verdana">Verdana</option>
+<option value="Courier">Courier</option>
+<option value="Comic Sans MS">Comic Sans</option>
+</select>
+</fieldset>
+<br>
+<div>
+<input type="submit" name="submit_btn" value="Make my page"/>
+</div>
+
+
+</form>
+
+
+</body>
+</html>

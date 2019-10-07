@@ -1,0 +1,55 @@
+body {
+  /*background-image: url("../images/bricks2.png");*/
+  background-color: teal;
+  text-align: center;
+  color: white;
+  text-
+}
+
+title{
+  text-align: center;
+  color: #556b2f;
+}
+
+h1{
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+form{
+	text-align: center;
+}
+
+label{
+    display:inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+p{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+a{
+	background-color: #556b2f;
+  color:white;
+  padding:0.5em;
+  border-radius:5px;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #B29C7D;
+	transition:all 2s ease-in-out;
+}
+
+/*.link {
+	width: 100%;
+	text-align: center;
+	position:fixed;
+	top: 100px;
+}*/
+
+/*A8BAA9*/

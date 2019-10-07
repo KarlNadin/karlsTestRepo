@@ -1,0 +1,121 @@
+h1,h2,h3{
+	text-align: center;
+	font-family: Arial; Helvetica; sans-serif;
+	letter-spacing: 10px;
+  color: #7F6854;
+}
+
+body{
+	background: #dbcdad;
+height:100vh;
+}
+
+h1{
+  text-size: 55px
+}
+
+h2{
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+label{
+	color: #B29C7D;
+}
+
+ul{
+	text-align: center;
+	font-family: Arial;
+	color: #B29C7D;
+	list-style-type: none;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu ul {
+	display:inline-table;
+}
+
+p{
+	text-align: center;
+	color: #B29C7D;
+}
+
+table{
+	font-family:Arial, sans-serif;
+	font-size:0.8em;
+	text-align:center;
+	border-collapse:collapse;
+	color: black;
+	width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*.holder{
+	display:flex;
+}*/
+
+td, th{
+	padding:1.5em;
+	border:0.05em solid #668194;
+}
+
+a:hover{
+  background-color: #B29C7D;
+	transition:all 2s ease-in-out;
+}
+
+.nav-bar{
+	list-style-type:none;
+}
+
+.nav-opts a{
+	text-decoration:none;
+}
+
+a{
+	background-color: #A8BAA9;
+  color:white;
+  padding:1.5em;
+  border-radius:5px;
+}
+
+.link {
+	width: 100%;
+	text-align: center;
+	position:fixed;
+	bottom: 60px;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+		font-family: Arial; Helvetica; sans-serif;
+		letter-spacing: 10px;
+	  color: #7F6854;
+}
+
+img.center {
+  display: block;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+form{
+	text-align: center;
+	font-family: Arial;
+	color: #B29C7D;
+	list-style-type: none;
+}
+
+.pad{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#valid li{
+	margin-top: 50px;
+}

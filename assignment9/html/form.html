@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Form</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Membership Application</h1>
+<hr>
+<div id="Apply_Online">
+<h2>Apply Online</h2>
+<div class="form">
+<p></p>
+<form action="process.php" method="get">
+
+
+<label for="title">Title:</label>
+
+<input list="test" id="title">
+
+<datalist id="test">
+  <option value="Sir">
+  <option value="Professor">
+  <option value="Dr">
+  <option value="Mr">
+  <option value="Mrs">
+  <option value="Master">
+  <option value="Miss">
+  <option value="Ms">
+</datalist>
+
+
+
+<p></p>
+<label for="firstname">First Name:</label>
+<input type="text" name="fname" id="firstname">
+<label for="secondname">Second Name:</label>
+<input type="text" name="secName" id="secondname">
+<h3>Gender</h3>
+  <input type="radio" name="Gender"
+  value="Male" /> Male
+  <input type="radio" name="Gender"
+  value="Female" /> Female
+<h3>Address</h3>
+  <textarea name="Address" cols="72" rows="6"></textarea>
+  <p></p>
+  <label for="emailaddress">email Address:</label>
+  <input type="email" name="email" id="emailaddress">
+<p></P>
+  <label for="telephone">Telephone Number:</label>
+  <input type="text" name="telephone" id="telephone">
+<h2>Prefered Games</h2>
+<p>Please check all that apply to you</p>
+  <label for="snooker">Snooker:</label>
+  <input type="checkbox" name="snooker" id="snooker">
+  <label for="pool">Pool:</label>
+  <input type="checkbox" name="pool" id="pool">
+  <label for="billiards">Billiards:</label>
+  <input type="checkbox" name="billiards" id="billiards">
+  <label for="darts">Darts:</label>
+  <input type="checkbox" name="darts" id="darts">
+<p></p>
+<input type="submit" name="Submit" id="button">
+</form>
+</div>
+</div>
+<div class="link">
+<a href="../index.html">Home</a>
+<a href="table.html">Fees</a>
+<a href="text.html">About Us</a>
+<a href="validation.html">Validation</a>
+<a href="reference.html">Referencing</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+
+body {
+  font-family: 'Verdana';
+  background-color: darkSlateGrey;
+  padding-top: 145px;
+  padding-left: 4px;
+  padding-right: 4px;
+  }
+
+header {
+  position: fixed;
+  background-color: lemonChiffon;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+h1, h2, h3, p {
+  font-family: 'Verdana';
+  font-weight: lighter;
+  color: darkSlateGrey;
+  margin: 0px;
+}
+
+h4 {
+  font-family: 'Verdana';
+  font-weight: lighter;
+  margin: 0px;
+  padding-top: 5px;
+  color: darkSlateGrey;
+}
+
+
+
+#word {
+  color: white;
+}
+
+#menuGrid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#heading {
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+}
+
+.gridOne /* This is a two column grid with 1:1 ratio*/ {
+    display: grid;
+	  width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	  margin: auto;
+    grid-gap: 0px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.gridTwo /* This is a two column grid with 1:1 ratio*/ {
+    display: grid;
+	  width: 70%;
+    padding-top: 10px;
+    padding-bottom: 120px;
+	  margin: auto;
+    grid-gap: 0px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#name {
+  text-align: center;
+  color: lemonChiffon;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 25%;
+}
+
+#account {
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 25px;
+  padding-right: 25%;
+}
+
+figure {
+  font-size: 18px;
+}
+
+#menuGridOne {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#address {
+  text-align: left;
+}
+
+#social {
+  text-align: right;
+}
+
+a {
+  font-weight: lighter;
+  text-decoration: none; /*Removes the underline from the anchor elements of the nav, email contacts, social and icons8 links*/
+  color: darkSlateGrey;
+}
+
+a#link {
+  font-size: 25px;
+  padding-left: 25px; /*Sets the padding to the right of the first 3 navbar anchors*/
+}
+
+a:hover {
+  transition:all 1.5s ease-in-out;
+  color: sienna;
+}
+
+a#col {
+  color: white;
+}
+
+div#social {
+  text-align: right;
+  padding-bottom: -200px;
+}
+
+footer {
+  position: fixed;
+  background-color: lemonChiffon;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  left: 0px;
+  right: 0px;
+  bottom: -10px;
+}

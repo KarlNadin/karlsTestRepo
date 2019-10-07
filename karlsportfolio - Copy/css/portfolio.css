@@ -1,0 +1,221 @@
+
+body {
+  font-family: 'Verdana';
+  background-color: darkSlateGrey;
+  padding-top: 145px;
+  padding-left: 4px;
+  padding-right: 4px;
+  }
+
+header {
+  position: fixed;
+  background-color: lemonChiffon;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+h1, h2, h3, p {
+  font-family: 'Verdana';
+  font-weight: lighter;
+  margin: 0px;
+}
+
+h4 {
+  font-family: 'Verdana';
+  font-weight: lighter;
+  margin: 0px;
+  padding-top: 5px;
+  /*color: darkSlateGrey;*/
+}
+
+#white {
+  color: white;
+}
+
+#dsg {
+  color: darkSlateGrey;
+}
+
+#menuGrid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#menuGrid2 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#heading {
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+}
+
+.gridOne /* This is a two column grid with 1:1 ratio*/ {
+    display: grid;
+	  width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	  margin: auto;
+    grid-gap: 0px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#name { /*Controls headings that apprear in div class left*/
+  text-align: center;
+  color: lemonChiffon;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#account { /*Controls the paragraphs that apprear in div class left*/
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#name1 { /*Controls headings that apprear in div class right*/
+  text-align: center;
+  color: lemonChiffon;
+  font-size: 30px;
+  padding-top: 10px;
+  /*padding-left: 25px;*/
+  padding-right: 10px;
+}
+
+#account1 { /*Controls the paragraphs that apprear in div class right*/
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+figure {
+  font-size: 18px;
+}
+
+#menuGrid1 {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#address {
+  text-align: left;
+}
+
+#social {
+  text-align: right;
+}
+
+a#link { /*controls appearance for the anchors in the nav bar at top of page*/
+  color: darkSlateGrey;
+  font-size: 25px;
+  padding-left: 25px; /*Sets the padding to the right of the first 3 navbar anchors*/
+  text-decoration: none;
+}
+
+#mail {  /*controls the email anchors at the bottom of the page*/
+  color: darkSlateGrey;
+  font-size: 15px;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+a#link:hover {
+  transition:all 1.5s ease-in-out;
+  color: lightblue;
+}
+
+a#mail:hover {
+  transition:all 1.5s ease-in-out;
+  color: lightblue;
+}
+
+a#hop {
+  color: lightblue;
+  text-decoration-line: underline;
+}
+
+a#larts {
+  color: lightblue;
+  text-decoration-line: underline;
+}
+
+h2#abkarl {
+    color: white;
+    text-align: center;
+}
+
+p#white {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#top {
+  font-size: 15px;
+  text-align: center;
+  padding-right: 20px;
+  color: lightblue;
+  text-decoration-line: underline;
+}
+
+a#bottom {
+  font-size: 15px;
+  text-align: center;
+  padding-right: 20px;
+  color: lightblue;
+  text-decoration-line: underline;
+  padding-bottom: 134px;
+}
+
+p#top {
+  font-weight: lighter;
+  font-size: 25px;
+  color: lightblue;
+  text-decoration-line: underline;
+}
+
+#page {
+  text-align: right;
+  padding-top: 10px;
+}
+
+div#social {
+  text-align: right;
+  padding-bottom: -200px;
+}
+
+footer {
+  position: fixed;
+  background-color: lemonChiffon;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  left: 0px;
+  right: 0px;
+  bottom: -10px;
+}
